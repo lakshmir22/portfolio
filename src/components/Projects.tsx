@@ -39,7 +39,7 @@ export const Projects = () => {
         'SwapSewa is a smart barter platform enabling seamless skill and goods exchange through intelligent matching, real-time chat, and community collaboration.',
       technologies: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'WebRTC', 'PeerJS'],
       image: './swap-sewa.jpg',
-      github: 'https://github.com/lakshmir22',
+      github: 'https://github.com/lakshmir22/Swap-Sewa',
       demo: 'https://github.com/lakshmir22',
     },
     
