@@ -119,20 +119,12 @@ export const About = () => {
                   Education
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  B.Tech in Computer Science<br />
+                  B.E in Computer Science<br />
                   Lokmanya Tilak College of Engineering
                 </p>
               </div>
               
-              <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
-                <h4 className="mb-3 font-semibold text-text-light dark:text-text-dark">
-                  Experience
-                </h4>
-                <p className="text-gray-600 dark:text-gray-300">
-                  5+ Years<br />
-                  Software Development
-                </p>
-              </div>
+
             </div>
           </div>
         </div>
