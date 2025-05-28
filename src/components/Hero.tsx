@@ -101,7 +101,7 @@ export const Hero = () => {
           ref={ctaRef as React.RefObject<HTMLDivElement>}
           className="flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-x-6 sm:space-y-0"
         >
-          <a href="https://www.dropbox.com/scl/fi/3wqzfctnlkbdu9ownrfia/resume-5.pdf?rlkey=cfdenu8hfnootw90qyk7ngtp9&st=jzpo7ky2&dl=0" className="btn btn-primary px-8 py-3 text-base">
+          <a href="https://www.dropbox.com/scl/fi/tir1hwwgwwha2iwasth4i/resume-6.pdf?rlkey=h17udfq24tpaiqojiavczs7am&st=pv4upidx&dl=0" className="btn btn-primary px-8 py-3 text-base">
           Resume
           </a>
           <a href="#contact" className="btn btn-outline px-8 py-3 text-base">
