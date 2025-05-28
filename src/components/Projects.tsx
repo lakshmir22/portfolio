@@ -20,7 +20,7 @@ export const Projects = () => {
       description:
         'A decentralized, end-to-end encrypted chat app built with Solidity, React.js, and IPFS, enabling secure real-time messaging without central servers.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Solidity', 'IPFS', 'Web.js'],
-      image: 'chatty.png',
+      image: './chatty.jpg',
       github: 'https://github.com/lakshmir22/Chatty',
       demo: 'https://chatty-phi-six.vercel.app/',
     },
@@ -29,7 +29,7 @@ export const Projects = () => {
       description:
         'A blockchain-based decentralized marketplace using Solidity and IPFS, enabling transparent crop trading, smart contracts, and real-time dashboards for farmers and buyers.',
       technologies: ['React', 'Node.js', 'Express', 'Ganache', 'Truffle', 'Solidity', 'IPFS', 'Web.js'],
-      image: 'farmassureImg' ,
+      image: './farmer.png' ,
       github: 'https://github.com/lakshmir22/FarmAssure',
       demo: 'https://farm-assure-abin.vercel.app/',
     },
@@ -38,7 +38,7 @@ export const Projects = () => {
       description:
         'SwapSewa is a smart barter platform enabling seamless skill and goods exchange through intelligent matching, real-time chat, and community collaboration.',
       technologies: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'WebRTC', 'PeerJS'],
-      image: '/placeholder.jpg',
+      image: './swap-sewa.jpg',
       github: 'https://github.com/lakshmir22',
       demo: 'https://github.com/lakshmir22',
     },
