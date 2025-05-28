@@ -20,7 +20,7 @@ export const Projects = () => {
       description:
         'A decentralized, end-to-end encrypted chat app built with Solidity, React.js, and IPFS, enabling secure real-time messaging without central servers.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Solidity', 'IPFS', 'Web.js'],
-      image: './chatty.jpg',
+      image: 'https://i.postimg.cc/q7BmVrFF/chatty.jpg',
       github: 'https://github.com/lakshmir22/Chatty',
       demo: 'https://chatty-phi-six.vercel.app/',
     },
