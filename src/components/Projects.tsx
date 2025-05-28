@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { ProjectIcon, GitHubIcon } from './Icons';
+import Image from 'next/image';
 
 interface Project {
   title: string;
@@ -29,7 +30,7 @@ export const Projects = () => {
       description:
         'A blockchain-based decentralized marketplace using Solidity and IPFS, enabling transparent crop trading, smart contracts, and real-time dashboards for farmers and buyers.',
       technologies: ['React', 'Node.js', 'Express', 'Ganache', 'Truffle', 'Solidity', 'IPFS', 'Web.js'],
-      image: './farmer.png' ,
+      image: 'https://i.postimg.cc/QtwSTTML/farmer.png',
       github: 'https://github.com/lakshmir22/FarmAssure',
       demo: 'https://farm-assure-abin.vercel.app/',
     },
@@ -38,7 +39,7 @@ export const Projects = () => {
       description:
         'SwapSewa is a smart barter platform enabling seamless skill and goods exchange through intelligent matching, real-time chat, and community collaboration.',
       technologies: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'WebRTC', 'PeerJS'],
-      image: './swap-sewa.jpg',
+      image: 'https://i.postimg.cc/6qZcLp78/swap-sewa.png',
       github: 'https://github.com/lakshmir22/Swap-Sewa',
       demo: 'https://github.com/lakshmir22',
     },
@@ -106,9 +107,12 @@ export const Projects = () => {
               className="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl dark:bg-gray-800"
             >
               <div className="relative h-56 w-full overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-light/90 to-secondary-light/90 dark:from-primary-dark/90 dark:to-secondary-dark/90">
-                  <ProjectIcon className="h-20 w-20 text-white" />
-                </div>
+                {/* Actual project image */}
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
                 
                 {/* Animated overlay on hover */}
                 <div className="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
